@@ -1,7 +1,7 @@
 #wrap{width:1920px;margin:0 auto}
 header{background:url('../images/bg_visual_top.png') no-repeat;height:1553px;}
 header .nav_wrap{position:fixed;z-index:99;height:90px;width:1920px}
-header h1{float:left;margin-top:30px;/*background:url('../images/logo.png') no-repeat;text-indent:-9999px;width:161px;height:26px;*/margin-left:40px}
+header h1{float:left;margin-top:30px;background:url('../images/logo.png') no-repeat;text-indent:-9999px;width:130px;height:36px;margin-left:40px}
 header nav{float:right;position: absolute;margin-top:35px;right:80px}
 header nav ul{float:right;}
 header nav li{display:inline-block;float:left;font-size:16px;margin-right:40px;cursor:pointer;}
@@ -23,7 +23,7 @@ header .main_text .main_text_btn a{color:white;}
 section{position:relative;top:-157px;z-index:2;width:1920px;margin:0 auto}
 section h2{font-size:50px;font-weight:800;color:#222}
 /* section sec1*/
-section .model1{margin-left:360px;}
+section .model1{margin-left:360px;background:url(../images/bg_model1.png) right bottom 0px no-repeat;padding-bottom:360px}
 section .model1 h2{margin-left:385px}
 section .model1 ul{padding:50px 0 35px 0;overflow:hidden;position:relative;top:-50px;padding-left:35px}
 section .model1 li{display:inline-block;float:left;background:#fff;width:calc(645px - 170px);padding:50px 60px;margin-top:50px;-webkit-box-shadow: 0px 0px 35px 5px rgba(46,48,57,0.1);
@@ -164,7 +164,7 @@ section .model4 .move1{clear:both;margin-top:40px;float:left;font-size:18px}
 section .model4 .move1 a{color:#282828}
 /* section sec4 */
 /* section sec5 */
-section .model5{margin-top:290px;overflow: hidden;clear:both;}
+section .model5{margin-top:290px;overflow: hidden;clear:both;position: relative;z-index:2}
 section .model5 div:first-child{float:left;margin-left:240px}
 section .model5 div:last-child{float:left;margin-left:110px;margin-top:140px}
 section .model5 div:last-child h2{line-height:80px}
@@ -172,18 +172,19 @@ section .model5 div:last-child span{color:#222;font-size:30px;margin-bottom:40px
 section .model5 div:last-child p{margin-top:40px;font-size:20px;color:#666;line-height:30px}
 /* section sec5 */
 /* section sec6 */
-section .model6{background:url(../images/bg_model6.png) right top no-repeat;height:1895px;width:1920px;margin-top:185px}
+section .model6{margin-top:-230px}
 section .model6 .model6_text{float:left;margin-left:360px;margin-top:70px}
 section .model6 .model6_text h2{line-height:80px}
 section .model6 .model6_text span{color:#222;font-size:30px;margin-bottom:40px;display:block;}
 section .model6 .model6_text p{margin-top:40px;font-size:20px;color:#666;line-height:30px}
 /* section sec6 */
 /* section sec7 */
-section .model7{width:1920px;margin-top:333px;position: relative;}
-section .model7 h3{color:white;font-size:50px;text-align:center;margin-bottom:60px;}
+section .model7{width:1920px;position: relative;background:url(../images/bg_model6.png) right top no-repeat;height:1895px;margin-top:-450px;z-index:1}
+section .model7 h3{color:white;font-size:50px;text-align:center;margin-bottom:50px}
 .swiper-container {
     width:1200px;
     height: 100%;
+    top:1085px
   }
   .swiper-slide {
     background: #fff;
@@ -193,8 +194,8 @@ section .model7 h3{color:white;font-size:50px;text-align:center;margin-bottom:60
 .swiper-slide p{clear: both;float:left;margin-left:55px;}
 section .model7 .text1{margin-top:60px;font-size:23px;font-weight:800;color:#222;line-height:32px}
 section .model7 .text2{margin-top:30px;font-size:18px;color:#666;line-height:32px}
-.swiper-button-prev1{position:absolute;left:85px !important;background:url(../images/btn_slide_prev.png) no-repeat;width:94px;height:94px;top:230px;cursor: pointer; outline-style:none;}
-.swiper-button-next1{position:absolute;right:85px !important;background:url(../images/btn_slide_next.png) no-repeat;width:94px;height:94px;top:230px;cursor: pointer; outline-style:none;}
+.swiper-button-prev1{position:absolute;left:85px !important;background:url(../images/btn_slide_prev.png) no-repeat;width:94px;height:94px;top:1350px;cursor: pointer; outline-style:none;}
+.swiper-button-next1{position:absolute;right:85px !important;background:url(../images/btn_slide_next.png) no-repeat;width:94px;height:94px;top:1350px;cursor: pointer; outline-style:none;}
  /* section sec7 */
  /* section news */
 section .news{width:100%;margin-top:185px;}
